@@ -1,0 +1,23 @@
+.arrow {
+    width: 20px;
+    height: 20px;
+    border-left: 2px solid var(--color-nord3);
+    border-bottom: 2px solid var(--color-nord3);
+    transform: rotate(45deg);
+}
+
+.triangle {
+    --size: 20px;
+    width: var(--size);
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: calc(tan(60deg) * var(--size)) solid var(--color-nord3);
+}
+
+.check {
+    width: 20px;
+    height: 12px;
+    border-left: 2px solid var(--color-nord3);
+    border-bottom: 2px solid var(--color-nord3);
+    transform: rotate(-45deg);
+}
