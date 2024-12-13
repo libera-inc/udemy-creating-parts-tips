@@ -1,0 +1,42 @@
+.table-wrap {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.table-wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.table {
+    width: 100%;
+    min-width: 520px;
+}
+
+.table-caption {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.table-header,
+.table-data {
+    font-weight: bold;
+    padding: 16px 12px;
+    border-bottom: 1px solid var(--color-nord4);
+    border-top: 1px solid var(--color-nord4);
+}
+
+.table-header {
+    background-color: var(--color-nord6);
+    width: 30%;
+}
+
+.table-data {
+    width: 70%;
+}
+
+.table-data span {
+    display: block;
+}
